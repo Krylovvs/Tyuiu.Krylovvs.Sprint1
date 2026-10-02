@@ -1,6 +1,6 @@
-﻿using Tyuiu.Krylovvs.Sprint1.Task2.V18.Lib;
+﻿using Tyuiu.Krylovvs.Sprint1.Task3.V17.Lib;
 
-namespace Tyuiu.Krylovvs.Sprint1.Task2.V18.Test
+namespace Tyuiu.Krylovvs.Sprint1.Task3.V17.Test
 {
     [TestClass]
     public sealed class DataServiceTest
@@ -8,12 +8,11 @@ namespace Tyuiu.Krylovvs.Sprint1.Task2.V18.Test
         [TestMethod]
         public void CheckCalculate()
         {
-            int x = 1, y = 1, a = 1;
-            float Expected = 1 / 3.0f / 1 + 6.0f * 1;
+            float Num1 = 0.230f;
+            bool Expected = true;
             DataService Examp = new DataService();
-            float Res = Examp.Calculate(x, y, a);
+            bool Res = Examp.Calculate(Num1);
             Assert.AreEqual(Expected, Res);
-
         }
     }
 }
