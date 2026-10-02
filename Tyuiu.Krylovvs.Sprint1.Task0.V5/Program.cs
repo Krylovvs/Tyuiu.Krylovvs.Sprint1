@@ -3,7 +3,8 @@ using Tyuiu.Krylovvs.Sprint1.Task0.V5.Lib;
 
 
 string PlaceHolder1 = "(1+2)*(1+9/3)";
-int Res = DataService.Calculate();
+DataService Examp = new DataService();
+int Res = Examp.Calculate();
 
 
 Console.Title = "Спринт #1 | Выполнил: Крылов В.С. | ПИНб-26-1";
