@@ -6,7 +6,7 @@ namespace Tyuiu.Krylovvs.Sprint1.Task0.V5.Test
     public sealed class DataServiceTest
     {
         [TestMethod]
-        public void CheckCalculate()
+        public void ValidExpression()
         {
             double Expected = 12;
             DataService Examp = new DataService();
