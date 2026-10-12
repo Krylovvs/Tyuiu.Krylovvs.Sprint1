@@ -6,8 +6,7 @@ namespace Tyuiu.Krylovvs.Sprint1.Task0.V5.Lib
     {
         public double Calculate()
         {
-            return 1 + 2 * 1 + 9 / 3;
-            //
+            return (1 + 2) * (1 + 9 / 3);
         }
     }
 
