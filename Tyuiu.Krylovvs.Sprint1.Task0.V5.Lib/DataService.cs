@@ -4,7 +4,7 @@ namespace Tyuiu.Krylovvs.Sprint1.Task0.V5.Lib
 {
     public class DataService : ISprint1Task0V5
     {
-        public double Calculate()
+        double ISprint1Task0V5.Calculate()
         {
             return (1 + 2) * (1 + 9 / 3);
         }
