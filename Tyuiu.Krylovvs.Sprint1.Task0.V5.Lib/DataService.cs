@@ -15,7 +15,7 @@ namespace Tyuiu.Krylovvs.Sprint1.Task0.V5.Lib
 
 namespace tyuiu.cources.programming.interfaces.Sprint1
 {
-    interface ISprint1Task0V5
+    public interface ISprint1Task0V5
     {
         double Calculate();
     }
