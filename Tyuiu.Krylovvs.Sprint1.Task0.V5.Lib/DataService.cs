@@ -7,7 +7,8 @@ namespace Tyuiu.Krylovvs.Sprint1.Task0.V5.Lib
         public double Calculate()
         {
             // 8 15/2/4
-            return (1.0d + 2.0d) * (1.0d + 9.0d / 3.0d);
+            int Res = (1 + 2) * (1 + 9 / 3);
+            return Res;
         }
     }
 
