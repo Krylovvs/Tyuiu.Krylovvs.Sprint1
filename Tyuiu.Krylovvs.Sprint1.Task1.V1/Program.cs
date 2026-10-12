@@ -4,8 +4,8 @@ using Tyuiu.Krylovvs.Sprint1.Task1.V1.Lib;
 
 string PlaceHolder1 = "x = 1, y = 1, a = 1";
 DataService Examp = new DataService();
-float x = 1, y = 1, a = 1;
-float Res = Examp.Calculate(x, y, a);
+double x = 1, y = 1, a = 1;
+double Res = Examp.Calculate(x, y, a);
 
 
 Console.Title = "Спринт #1 | Выполнил: Крылов В.С. | ПИНб-26-1";

@@ -8,10 +8,10 @@ namespace Tyuiu.Krylovvs.Sprint1.Task1.V1.Test
         [TestMethod]
         public void CheckCalculate()
         {
-            float x = 1, y = 1, a = 1;
-            float Expected = 1 / 3.0f / 1 + 6.0f * 1;
+            double x = 1, y = 1, a = 1;
+            double Expected = 1 / 3.0f / 1 + 6.0f * 1;
             DataService Examp = new DataService();
-            float Res = Examp.Calculate(x, y, a);
+            double Res = Examp.Calculate(a, x, y);
             Assert.AreEqual(Expected, Res);
 
         }
