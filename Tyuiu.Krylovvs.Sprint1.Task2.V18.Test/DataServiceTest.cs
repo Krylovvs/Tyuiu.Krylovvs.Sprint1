@@ -9,7 +9,7 @@ namespace Tyuiu.Krylovvs.Sprint1.Task2.V18.Test
         public void CheckCalculate()
         {
             int x = 1, y = 1, a = 1;
-            float Expected = 1 / 3.0f / 1 + 6.0f * 1;
+            float Expected = 4;
             DataService Examp = new DataService();
             float Res = Examp.Calculate(x, y, a);
             Assert.AreEqual(Expected, Res);

@@ -8,9 +8,9 @@ namespace Tyuiu.Krylovvs.Sprint1.Task0.V5.Test
         [TestMethod]
         public void CheckCalculate()
         {
-            int Expected = 12;
+            double Expected = 12;
             DataService Examp = new DataService();
-            int Res = Examp.Calculate();
+            double Res = Examp.Calculate();
             Assert.AreEqual(Expected, Res);
         }
     }

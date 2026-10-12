@@ -1,15 +1,21 @@
-﻿namespace Tyuiu.Krylovvs.Sprint1.Task0.V5.Lib
+﻿using tyuiu.cources.programming.interfaces.Sprint1;
+
+namespace Tyuiu.Krylovvs.Sprint1.Task0.V5.Lib
 {
     public class DataService : ISprint1Task0V5
     {
-        public int Calculate()
+        public double Calculate()
         {
             return (1 + 2) * (1 + 9 / 3);
         }
     }
 
+}
+
+namespace tyuiu.cources.programming.interfaces.Sprint1
+{
     interface ISprint1Task0V5
     {
-        public int Calculate();
+        double Calculate();
     }
 }
